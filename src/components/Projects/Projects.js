@@ -14,6 +14,7 @@ import realtodolist from '../../Assets/Projects/realtodolist.png'
 import smallportfolio from '../../Assets/Projects/smallportfolio.png'
 import cashwithdrawl from "../../Assets/Projects/cashwithdrawl.png";
 import googlesearchsuggestions from '../../Assets/Projects/googlesearchsuggestions.png'
+import character from '../../Assets/Projects/character.ai.png'
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -141,6 +142,18 @@ function Projects() {
                demoLink="https://moulicash.ccbp.tech/"      
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={character}
+              isBlog={false}
+              title="Character.ai"
+              description="Here User can create an account by and chat with ai"
+              ghLink="https://github.com/chandramouli35/embed.ai-master"
+               demoLink="https://create-ai-embed.netlify.app/"      
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
